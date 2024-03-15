@@ -107,12 +107,7 @@ const ParticlesBg = () => {
         );
 
     }
-    return (
-        <div>
-            <h1 className="text-black">Bhavesh</h1>
 
-        </div>
-    )
 
 }
 export default ParticlesBg 
