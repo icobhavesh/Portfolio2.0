@@ -40,10 +40,10 @@ space-grotesk text-bolder hidden md:flex gap-10 text-white  hover:underline ml-0
                 top-[58px]  left-[-100%] w-full ${toggle ? "left-[0]" : "left-[-100%]  "
                         }`}
                 >
-                    <Link to=" " className=" space-grotesk p-3 text-center ">Home</Link>
+                    <Link to="/ " className=" space-grotesk p-3 text-center ">Home</Link>
                     <Link to="/about" className="p-3 text-center">Menu</Link>
                     <Link to="/project" className="p-3 text-center">About</Link>
-                    <Link to="contact" className="p-3 text-center">Contactus</Link>
+                    <Link to="/contact" className="p-3 text-center">Contactus</Link>
 
                 </ul>
             </div>
