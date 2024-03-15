@@ -1,5 +1,5 @@
 
-import Header from ".//Header"
+// import Header from ".//Header"
 import Herosection from ".//Herosection"
 import ParticlesBg from ".//Particles"
 import ProjectsSection from ".//ProjectsSection"

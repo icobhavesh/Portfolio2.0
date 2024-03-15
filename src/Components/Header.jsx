@@ -28,7 +28,7 @@ const Header = () => {
                 {/*  hidden for sm device  */}
                 <ul className=" 
 space-grotesk text-bolder hidden md:flex gap-10 text-white  hover:underline ml-0 text-xl  ">
-                    <Link to="/ ">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/project">Project</Link>
                     <Link to="/contact">Contactus</Link>
@@ -40,7 +40,7 @@ space-grotesk text-bolder hidden md:flex gap-10 text-white  hover:underline ml-0
                 top-[58px]  left-[-100%] w-full ${toggle ? "left-[0]" : "left-[-100%]  "
                         }`}
                 >
-                    <Link to="/ " className=" space-grotesk p-3 text-center ">Home</Link>
+                    <Link to="/Home " className=" space-grotesk p-3 text-center ">Home</Link>
                     <Link to="/about" className="p-3 text-center">Menu</Link>
                     <Link to="/project" className="p-3 text-center">About</Link>
                     <Link to="/contact" className="p-3 text-center">Contactus</Link>
