@@ -6,7 +6,7 @@ const SocialMedia = () => {
     return (
         <div className="max-w-[1240px] mx-auto bg-slate-950  static">
             {/* <h1 className="text-2xl pl-10 text-white">Social</h1> */}
-            <div className="text-slate-400 flex flex-col  justify-center gap-3 pl-2">
+            <div className="text-slate-400 flex flex-col  justify-center gap-3 mr-2">
                 <a href="linkedin.com/in/bhavesh-saxena-a6a7a3276">
                     <TiSocialLinkedin size={45} />
                 </a>
