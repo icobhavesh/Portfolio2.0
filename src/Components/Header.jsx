@@ -36,7 +36,7 @@ space-grotesk text-bolder hidden md:flex gap-10 text-white  hover:underline ml-0
                 {/* //////////navbar for sm using toogle button ///////// */}
                 <ul
                     className={`"  anton-regular  
-                duration-300 md:hidden gap-4 flex-col flex text-white bg-slate-950 h-screen fixed text-xl 
+                duration-300 md:hidden gap-4  flex justify-between text-white bg-slate-950 h-autofixed text-xl 
                 top-[58px]  left-[-100%] w-full ${toggle ? "left-[0]" : "left-[-100%]  "
                         }`}
                 >
