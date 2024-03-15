@@ -11,12 +11,16 @@ function Herosection() {
                 <div className="flex flex-col items-center space-y-4 text-center">
 
                     <div className="space-y-2">
-                         <h1 className=" anton-regular  text-3xl tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white  . ">
+                        <h1 className=" anton-regular  text-3xl tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white  . ">
                             HEY, I'M<span className="text-blue-700 font-serif"> BHAVESH </span>
                         </h1>
                         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                             A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
                         </p>
+                        <div className=" md:block ">
+                            <SocialMedia />
+
+                        </div>
                         <div className="flex gap-10 justify-center items-center pt-10">
                             <button className="border-2 border-slate-700 px-6 py-2 rounded-full text-white  hover:bg-blue-800  bg-[rgb(24,10,47)]">Contact Me</button>
                             <button className="border-2 px-10 hover:bg-blue-800  bg-[rgb(24,10,47)] text-white  py-2 rounded-full border-slate-700">CV</button>
@@ -29,10 +33,7 @@ function Herosection() {
                     </div>
 
                 </div>
-                <div className="hidden md:block">
-                    <SocialMedia />
 
-                </div>
             </div>
         </div>
     )
