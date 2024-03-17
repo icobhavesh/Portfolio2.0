@@ -38,7 +38,7 @@ const Header = () => {
                     <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
                 </ul>
                 {/* //////////navbar for sm using toggle button ///////// */}
-                <ul className={`duration-300 md:hidden gap-2 l navLink text-white flex flex-col bg-slate-950 h-auto fixed text-xl top-[58px] left-[-100%] w-full ${toggle ? "left-[0]" : "left-[-100%]"}`}>
+                <ul className={`duration-300 md:hidden gap-2 l navLink text-white flex flex-col bg-slate-950 h-screen fixed text-xl top-[58px] left-[-100%] w-full ${toggle ? "left-[0]" : "left-[-100%]"}`}>
                     <Link to="/" className="space-grotesk p-3 text-center" onClick={handleLinkClick}>Home</Link>
                     <Link to="/about" className="space-grotesk p-3 text-center" onClick={handleLinkClick}>About</Link>
                     <Link to="/project" className="space-grotesk p-3 text-center" onClick={handleLinkClick}>Project</Link>
