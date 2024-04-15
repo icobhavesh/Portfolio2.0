@@ -13,7 +13,7 @@ function Herosection() {
 
                     <div className="space-y-2">
                          <h1 className=" anton-regular  text-3xl tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white  . ">
-                            HEY, I'M<span className="text-blue-700 font-serif"> BHAVESH </span>
+                            HEY, I'M<span className="text-blue-700 font-serif"> BHAVESH saxena </span>
                         </h1>
                         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                             A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
