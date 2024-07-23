@@ -3,7 +3,8 @@ const ProjectData = [
         images: "../assets/Ecommerceweb.png",
         Name: " Shopping-Website",
         Description: "This is a shopping app where I utilized React-Redux-Toolkit and React Router DOM. I implemented features such as add to cart and checkout functionality.",
-        link: 'https://shopping-3ub2jr5bm-bhavesh-s-projects.vercel.app/'
+        // link: 'https://shopping-3ub2jr5bm-bhavesh-s-projects.vercel.app/'
+        link: 'https://watch-me-one.vercel.app/'
     },
     {
         images: "../assets/youtube clone.png",
